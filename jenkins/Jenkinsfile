@@ -26,7 +26,7 @@ pipeline {
 
         stage('Deliver') {
             steps {
-                bat 'jenkins\\scripts\\deliver.bat'
+                echo 'Delivery stage skipped'
             }
         }
 
